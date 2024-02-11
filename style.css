@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@800&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right, black,rgb(1, 1, 20));
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    background-image: 
+  url("..//images/photo.jpg")
+;
+;
+    background-position: center;
+    width: 85%;
+    height: 850px;
+
+}
+
+.container :hover{
+    background-image: linear-gradient(to right, rgba(165, 42, 42, 0.274),rgba(255, 192, 203, 0.301), transparent)  
+ url("..//images/photo.jpg")
+    ;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+
+.content{
+    color: white;
+    width: 50%; 
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+
+.content p{
+    letter-spacing: 3px;
+    width: 500px;
+    padding: 20px 0;
+}
+
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.content button:hover{
+    background-color: transparent;
+    
+    border-color: white;
+    color: white;
+}
